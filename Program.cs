@@ -35,8 +35,8 @@ class program
                     {
                         case 1:
 
-                            inputCPU = "ROCK";
-                            Console.ForegroundColor = ConsoleColor.Blue; //if player input and CPU input match it is a draw, no points awarded
+                            inputCPU = "ROCK"; //if player input and CPU input match it is a draw, no points awarded
+                            Console.ForegroundColor = ConsoleColor.Blue; //This line of code and ones similar change the colour of the printed text.
                             Console.WriteLine("CPU chose ROCK");
                             if (inputPlayer == "ROCK")
                             {
